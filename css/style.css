@@ -9,6 +9,9 @@
 body{
     background-color: black;
 }
+#green{
+    color: green;
+}
 
 /* header */
 
@@ -37,6 +40,24 @@ footer{
     display: flex;
     justify-content: space-between;
     color: white;
+}
+footer > div > *{
+    height:100%
+}
+footer button {
+    border: none;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+}
+footer button > div{
+    margin-top: 15px;
+   
+}
+#end{
+    color: red;
+    background-color: grey;
+    padding: 20px;
 }
 /* debug */
 /* .debug header{
