@@ -12,7 +12,12 @@ body{
 #green{
     color: green;
 }
-
+img{
+    display: block;
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
 /* header */
 
 header{
@@ -32,6 +37,24 @@ header button{
 
 main{
     height: calc(100vh - 140px);
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start ;
+    justify-content: center;
+}
+.container > div{
+    width: calc(100% / 8);
+    margin: 5px;
+    color: white;
+    position: relative;
+}
+.container > div span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 /* footer */
 footer{
@@ -64,9 +87,9 @@ footer button > div{
     background-color: aquamarine;
 } */
 
-.debug main{
+/* .debug main{
     background-color: red;
-}
+} */
 /* .debug footer{
     background-color: blue;
 } */
