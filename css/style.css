@@ -4,14 +4,48 @@
     margin:0;
     box-sizing: border-box;
 }
-/* generale */
 
+/* generale */
+body{
+    background-color: black;
+}
 
 /* header */
 
+header{
+    height: 40px;
+    text-align: right;
+}
+header button{
+    background-color:grey;
+    color: white;
+    border-radius: 4px;
+    padding: 2px;
+    border: none;
+}
 
 
 /* main */
 
-
+main{
+    height: calc(100vh - 140px);
+}
 /* footer */
+footer{
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+/* debug */
+/* .debug header{
+    background-color: aquamarine;
+} */
+
+.debug main{
+    background-color: red;
+}
+/* .debug footer{
+    background-color: blue;
+} */
